@@ -1,0 +1,96 @@
+@media (max-width: 480px) {
+    
+    header {
+        .list-microsoft {
+            display: none;
+        }
+
+        .list-microsoft-resp {
+            display: block;
+        }
+    }
+
+    .slide {
+
+        .carousel-inner {
+            height: 520px;
+            box-shadow: 0 .125rem .25rem 0 rgba(0,0,0,.13),0 0 .0625rem 0 rgba(0,0,0,.11) !important;
+        }
+
+        .carousel-control-prev, .carousel-control-next {
+            top: 98px;
+            height: 8%
+        }
+
+        .img-carousel {
+            display: none;
+        }
+
+        .img-carousel-resp {
+            display: block;
+        }
+
+        .carousel-item .slider-items {
+            width: 86%;
+            position: static;
+            top: 20px;
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        .slider-items a {
+            padding-left: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            color: #0067b8;
+        }
+    }
+
+    .links {
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 25px 0;
+    }
+
+    .banner {
+        flex-direction: column;
+
+        .card {
+            position: relative;
+            left: 0;
+            width: 100%;
+
+            h5 {
+                font-size: 1.6rem;
+                margin-bottom: 16px;
+            }
+        }
+
+        .img-banner {
+            display: none;
+        }
+
+        .img-banner-resp {
+            display: block;
+        }
+    }
+
+    .container-cards {
+        padding: 0 30px;
+    
+        .wrapper-cards {
+            flex-direction: column;
+        }
+    }  
+    
+    .btn-start {
+        position: static;
+    }
+
+
+    .footer {
+        flex-direction: column;
+    }
+}
